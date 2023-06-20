@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/mystyle.css" />
+  </head>
+  <body>
+    <div class="Home"><a href="#scroll"> Scroll down</a></div>
+
+    <div id="scroll" class="container">
+      <div  class="wraper">
+        <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration="500">
+          <div class="box_1" data-tilt data-tilt-scale="1.1" > <h2> fade-right</h2> </div>
+        </div>
+
+        <div data-aos="fade-up"><div class="box_1" data-tilt data-tilt-glare data-tilt-max-glare="0.8"><h2>fade-up</h2></div></div>
+
+        <div data-aos="fade-up-right">
+          <div class="box_1" data-tilt data-tilt-glare data-tilt-max-glare="0.8"><h2>fade-right</h2></div>
+        </div>
+
+        <div data-aos="fade-up-left">
+          <div id="destroy-box" class="box_1" data-tilt data-tilt-axis="x"> <h2>fade-up-left</h2> </div>
+
+        </div>
+
+        <div data-aos="fade-down-right">
+          <div class="box_1" data-tilt data-tilt-axis="x"> <h2>fade right</h2> </div>
+        </div>
+
+        <div data-aos="fade-down-left">
+
+        
+          <div class="box_1" data-tilt data-tilt-startX="20" data-tilt-startY="-20" data-tilt-reset-to-start="true"> <h2>fade-down-right</h2></div>
+
+
+        </div>
+
+        <div data-aos="flip-right">
+          <div class="box_1"><h2>flip-right</h2></div>
+        </div>
+
+        <div data-aos="flip-left"><div class="box_1"><h2>flip-left</h2></div></div>
+
+        <div data-aos="flip-up">
+          <div class="box_1"><h2>flip-up</h2></div>
+        </div>
+
+        <div data-aos="flip-down"><div class="box_1"><h2>flip-down</h2></div></div>
+
+        <div data-aos="zoom-in">
+          <div class="box_1"><h2>zoom-in</h2></div>
+        </div>
+
+        <div data-aos="zoom-in-up">
+          <div class="box_1"><h2>zoom-in-up</h2></div>
+        </div>
+
+        <div data-aos="zoom-in-down"><div class="box_1"><h2>zoom-in-down</h2></div></div>
+        <div data-aos="zoom-in-left"><div class="box_1"><h2>zoom-in-left</h2></div></div>
+        <div data-aos="zoom-in-right">
+          <div class="box_1"><h2>zoom-in-right</h2></div>
+        </div>
+        <div data-aos="zoom-out"><div class="box_1"><h2>zoom out</h2></div></div>
+        <div data-aos="zoom-out-up"><div class="box_1"><h2>zoom out up</h2></div></div>
+        <div data-aos="zoom-out-down">
+          <div class="box_1"><h2>zoom out down</h2></div>
+        </div>
+        <div data-aos="zoom-out-left">
+          <div class="box_1" data-tilt data-tilt-glare data-tilt-max-glare="0.8"><h2>zoom out left</h2></div>
+        </div>
+        <div data-aos="zoom-out-right">
+          <div class="box_1" data-tilt data-tilt-glare data-tilt-max-glare="0.8"><h2>zoom-out-right</h2></div>
+        </div>
+
+        <div data-aos="fade-up" data-aos-duration="400">
+          <div class="box_1" data-tilt data-tilt-glare data-tilt-max-glare="0.8"><h2>fade-up</h2></div>
+        </div>
+        <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
+
+          <div class="box_1" data-tilt data-tilt-glare data-tilt-max-glare="0.8"><h2>fade-down</h2></div>
+          
+
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-1.12.4.js"
+      integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/vanilla-tilt.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/script.js"></script>
+    <script>AOS.init();</script>
+
+  </body>
+</html>
