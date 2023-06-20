@@ -10,6 +10,23 @@ body {
   text-align: center;
   line-height: 300px;
 }
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 38px;
+  font-family:  "Lucida Grande", "Lucida Sans", Arial,
+    sans-serif;
+    padding: 20px;
+    background:yellowgreen;
+    transition: .4s;
+    
+    border-radius: 16px;
+}
+a:hover{
+    background: rgb(190, 230, 112);
+    color: gray;
+}
 .container {
   width: 1120px;
   margin: auto;
@@ -30,6 +47,7 @@ body {
   -moz-box-shadow: 4px 9px 19px 12px rgba(0, 0, 0, 0.14);
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
 
 h2 {
   transform-style: preserve-3d;
